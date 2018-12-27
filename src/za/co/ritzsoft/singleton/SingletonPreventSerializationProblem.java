@@ -14,8 +14,8 @@ public class SingletonPreventSerializationProblem implements Serializable {
 
     /*
     *
-    * When we serialize an object and deserialize it again, there are different hashcode values generated . So the sngleton principle breaks in this case.
-    * To fix the issue we implement the readResolve method
+    * When we serialize an object and deserialize it again, there are different hashcode values generated . So the singleton principle breaks in this case.
+    * To fix the issue we implement the readResolve method.
     * */
 
     private Object readResolve(){
