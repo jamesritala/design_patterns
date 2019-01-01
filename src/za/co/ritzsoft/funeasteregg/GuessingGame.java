@@ -19,6 +19,6 @@ public class GuessingGame {
             if(guess!=computerGeneratedNumber)
                 System.out.println("Wrong! Try again. Enter another number below....\n");
         }while(guess!=computerGeneratedNumber);
-        System.out.println("You finally got it. I was thinking of "+computerGeneratedNumber);
+        System.out.println("You got it. I was thinking of "+computerGeneratedNumber);
     }
 }
