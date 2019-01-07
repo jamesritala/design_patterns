@@ -3,6 +3,11 @@ package za.co.ritzsoft.funeasteregg;
 import java.util.Random;
 import java.util.Scanner;
 
+/*
+* This is probaly the most useless code in this project. But I stopped working on the project for a minute because
+* my wife was bothering me and I wanted her to feel wat it was like to write code , so we agreed to do this simple program
+* together.
+* */
 public class GuessingGame {
 
     public static void main(String args[]){
