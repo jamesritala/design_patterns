@@ -8,7 +8,7 @@ public class Samsung implements IMobile {
 
     @Override
     public void pictureCapacity() {
-        System.out.println("Lenovo camera pixes are 20mp");
+        System.out.println("Samsung camera pixes are 20mp");
     }
 
     @Override
